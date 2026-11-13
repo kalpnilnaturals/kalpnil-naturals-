@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#6f8f2e">
+<meta name="theme-color" content="#176B3A">
 
-<title>KalpNil Naturals | Stay Connected</title>
+<title>KalpNil Naturals | Back To Tradition</title>
 
 <style>
+
 * {
     box-sizing: border-box;
 }
@@ -15,10 +16,12 @@
 body {
     margin: 0;
     min-height: 100vh;
+    padding: 22px;
+
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+
     font-family: Arial, sans-serif;
 
     background:
@@ -31,51 +34,68 @@ body {
 .card {
     width: 100%;
     max-width: 440px;
+
     padding: 28px 22px;
+
     text-align: center;
+
     background: #fffef8;
+
     border: 2px solid #d7dfae;
     border-radius: 26px;
+
     box-shadow: 0 18px 55px #344b1928;
 }
 
-/* ORIGINAL LOGO */
+/* LOGO */
 
 .brand-logo {
     display: block;
+
     width: 100%;
     max-width: 300px;
+
     height: auto;
+
     margin: 0 auto 18px;
+
     object-fit: contain;
 }
 
+/* TAGLINE */
+
 .tagline {
-    margin-bottom: 25px;
     color: #65734c;
     font-size: 16px;
+
+    margin-bottom: 25px;
 }
 
 /* SOCIAL BUTTONS */
 
 .button {
     display: flex;
+
     align-items: center;
     justify-content: center;
+
     gap: 12px;
 
     width: 100%;
     min-height: 58px;
+
     padding: 15px;
 
     margin: 16px 0;
 
     color: white;
     text-decoration: none;
+
     font-size: 18px;
     font-weight: bold;
 
     box-shadow: 0 5px 12px #00000018;
+
     transition: 0.2s;
 }
 
@@ -86,7 +106,7 @@ body {
 /* YOUTUBE */
 
 .youtube {
-    background: #ff0033;
+    background: #FF0033;
     border-radius: 8px;
 }
 
@@ -111,17 +131,85 @@ body {
     flex-shrink: 0;
 }
 
+/* GOOGLE SECTION */
+
+.google-section {
+    margin-top: 28px;
+
+    padding: 22px 15px;
+
+    background: #f2f6e7;
+
+    border: 1px solid #d7dfae;
+    border-radius: 18px;
+}
+
+.google-title {
+    color: #254b2e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.google-stars {
+    color: #f4b400;
+
+    font-size: 30px;
+
+    letter-spacing: 4px;
+
+    margin: 12px 0;
+}
+
+.google-text {
+    color: #65734c;
+    font-size: 14px;
+}
+
+/* GOOGLE BUTTONS */
+
+.google-button {
+    display: block;
+
+    padding: 15px;
+
+    margin: 12px 0;
+
+    border-radius: 10px;
+
+    background: #4285f4;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    font-size: 14px;
+}
+
+.map-button {
+    background: #258344;
+}
+
+/* FOOTER */
+
 .note {
-    margin-top: 24px;
+    margin-top: 22px;
+
     font-size: 12px;
+
     color: #7c8568;
+
     line-height: 1.6;
 }
 
 footer {
     margin-top: 22px;
+
     font-size: 11px;
+
     letter-spacing: 1px;
+
     color: #82915b;
 }
 
@@ -132,12 +220,12 @@ footer {
 
 <main class="card">
 
-<!-- KALPNIL ORIGINAL LOGO -->
+<!-- ORIGINAL LOGO -->
 
 <img
-    class="brand-logo"
-    src="logo.jpg"
-    alt="KalpNil Naturals - Back To Tradition"
+class="brand-logo"
+src="logo.jpg"
+alt="KalpNil Naturals - Back To Tradition"
 >
 
 <p class="tagline">
@@ -161,7 +249,7 @@ d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 
 
 </svg>
 
-<span>Subscribe</span>
+<span>Subscribe on YouTube</span>
 
 </a>
 
@@ -202,21 +290,64 @@ fill="white"
 
 </svg>
 
-<span>Follow</span>
+<span>Follow on Instagram</span>
 
 </a>
 
 
+<!-- GOOGLE REVIEWS -->
+
+<div class="google-section">
+
+<h2 class="google-title">
+YOUR FEEDBACK MATTERS!
+</h2>
+
+<p class="google-text">
+How was your experience with KalpNil Naturals?
+</p>
+
+<div class="google-stars">
+★★★★★
+</div>
+
+<p class="google-text">
+Your feedback helps us grow!
+</p>
+
+<a
+class="google-button"
+href="https://maps.app.goo.gl/F1s8gGySWrA7WusB6"
+target="_blank"
+rel="noopener noreferrer"
+>
+⭐ WRITE A GOOGLE REVIEW
+</a>
+
+<a
+class="google-button map-button"
+href="https://maps.app.goo.gl/F1s8gGySWrA7WusB6"
+target="_blank"
+rel="noopener noreferrer"
+>
+📍 VIEW OUR LOCATION
+</a>
+
+</div>
+
+
+<!-- FOOTER -->
+
 <p class="note">
-YouTube will ask visitors to confirm Subscribe.<br>
-Instagram requires visitors to confirm Follow.
+Thank you for supporting our natural products.
 </p>
 
 <footer>
-THANK YOU FOR SUPPORTING KALPNIL NATURALS
+KALPNIL NATURALS<br>
+BACK TO TRADITION
 </footer>
 
 </main>
 
 </body>
-</html>
+    </html>
